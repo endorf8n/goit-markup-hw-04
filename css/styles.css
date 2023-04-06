@@ -392,12 +392,12 @@ img {
 .footer-blocks {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 
 .footer-info {
   width: 264px;
   height: 112px;
-  margin-right: 120px;
 }
 
 .footer-social-media {
