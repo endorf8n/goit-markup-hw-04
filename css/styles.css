@@ -83,6 +83,7 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 /* Navigation  */
@@ -116,10 +117,14 @@ img {
   color: var(--accent-color);
 }
 
-.nav,
+.nav {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+}
+
 .nav-list {
   display: flex;
-  align-items: center;
 }
 
 .nav > .logo {
@@ -132,19 +137,17 @@ img {
 
 /* --------------------Contacts--------------------  */
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts-item:not(:last-child) {
   margin-right: 40px;
 }
 
-.contacts {
-  font-style: normal;
-  margin-left: auto;
-}
-
 .contact-info {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 
   font-weight: 400;
   font-size: 16px;
